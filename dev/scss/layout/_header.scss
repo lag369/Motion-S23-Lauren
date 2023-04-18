@@ -1,3 +1,22 @@
 /* =============
     Header
 ============= */
+header{
+    position: fixed;
+    background-color: $white;
+    width: 100%;
+    filter: drop-shadow(0px 2px 6px);
+    z-index: 100;
+
+    div{
+        display: grid;
+        grid-template-columns: 20% auto;
+        padding:8px 16px;
+
+        aside{
+            a{
+                display: inline-block;
+            }
+        }
+    }
+}
