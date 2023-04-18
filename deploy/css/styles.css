@@ -386,9 +386,48 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav {
+  height: 100%;
+}
+nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav ul li {
+  margin-left: 4vw;
+}
+nav ul li a:link, nav ul li a:visited {
+  font-family: "Roboto Slab", serif;
+  color: #A97DA2;
+  transition: 0.25s;
+  font-size: 18pt;
+  font-weight: 300;
+}
+nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
+  color: #061928;
+}
+
 /* =============
     Header
 ============= */
+header {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  filter: drop-shadow(0px 2px 6px);
+  z-index: 100;
+}
+header div {
+  display: grid;
+  grid-template-columns: 20% auto;
+  padding: 8px 16px;
+}
+header div aside a {
+  display: inline-block;
+}
+
 /* =============
     Footer
 ============= */
