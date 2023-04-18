@@ -454,18 +454,21 @@ header div aside a {
   background-image: url("../img/hero.jpg");
   background-position: center;
   background-size: cover;
+  color: #fff;
+  text-align: center;
+  align-items: center;
 }
 @media (min-width: 1200px) {
   #hero div {
     grid-area: hero;
   }
 }
-#hero #hero-content {
+#hero article #hero-content {
   color: #fff;
   text-align: center;
   align-items: center;
 }
-#hero #hero-content h1 {
+#hero article #hero-content h1 {
   font-size: rem-calc;
   font-weight: 900;
   line-height: 117px;
@@ -473,16 +476,16 @@ header div aside a {
   margin: 0;
 }
 @media (min-width: 768px) {
-  #hero #hero-content h1 {
+  #hero article #hero-content h1 {
     font-size: rem-cal;
   }
 }
-@media (min-width: 768px) {
-  #hero #hero-content h1 {
+@media (min-width: 1024px) {
+  #hero article #hero-content h1 {
     font-size: rem-cal;
   }
 }
-#hero #hero-content h2 {
+#hero article #hero-content h2 {
   font-size: rem-calc;
   font-weight: 400;
   line-height: 47px;
@@ -490,13 +493,13 @@ header div aside a {
   margin-top: -25px;
 }
 @media (min-width: 768px) {
-  #hero #hero-content h2 {
+  #hero article #hero-content h2 {
     font-size: rem-cal;
     margin-top: -20px;
   }
 }
 @media (min-width: 768px) {
-  #hero #hero-content h2 {
+  #hero article #hero-content h2 {
     font-size: rem-cal;
     margin-top: -15px;
   }
