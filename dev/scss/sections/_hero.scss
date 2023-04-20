@@ -11,8 +11,6 @@
 
     div{
         display: flex;
-        justify-items: center;
-        align-items: center;
         height: 100%;
         background-image: url('../img/hero.jpg');
         background-position: center;
@@ -21,6 +19,8 @@
         color: #fff;
         text-align: center;
         align-items: center;
+        padding-left: 35%;
+        padding-right: 35%;
 
         @include xl{
             grid-area: hero;
@@ -31,8 +31,8 @@
         
         #hero-content{
             color: #fff;
-            text-align: center;
-            align-items: center;
+            text-align: left;
+            align-items: left;
 
             h1{
                 font-size: rem-calc{};

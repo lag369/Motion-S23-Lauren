@@ -448,8 +448,6 @@ header div aside a {
 }
 #hero div {
   display: flex;
-  justify-items: center;
-  align-items: center;
   height: 100%;
   background-image: url("../img/hero.jpg");
   background-position: center;
@@ -457,6 +455,8 @@ header div aside a {
   color: #fff;
   text-align: center;
   align-items: center;
+  padding-left: 35%;
+  padding-right: 35%;
 }
 @media (min-width: 1200px) {
   #hero div {
@@ -465,8 +465,8 @@ header div aside a {
 }
 #hero article #hero-content {
   color: #fff;
-  text-align: center;
-  align-items: center;
+  text-align: left;
+  align-items: left;
 }
 #hero article #hero-content h1 {
   font-size: rem-calc;
