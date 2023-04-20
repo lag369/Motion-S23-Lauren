@@ -41,6 +41,9 @@
             border-radius: 12px;
             margin-left: 15%;
             margin-right: 15%;
+            &:hover, &:active{
+                color: #061928;
+            }
             
         }
     }
