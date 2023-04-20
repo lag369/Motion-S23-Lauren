@@ -3,6 +3,7 @@
     grid-template-columns: auto 90% auto;
     grid-template-areas: ". content .";
     padding: 64px 0;
+    color: #F5E1FD;
     @include md{
         padding: 100px 0;
         grid-template-columns: auto 80% auto;

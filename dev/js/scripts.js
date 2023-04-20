@@ -1,4 +1,4 @@
-import { gsap } from "gsap";
+import {gsap} from "gsap";
 
 function Hmotion(){
 gsap.set("#hero", {alpha: 0})
@@ -17,3 +17,7 @@ mainTl.add(Hmotion)()
 //const tweenDur = "0.5";
 
 //let tweenDur = "0.5";
+
+gsap.to("#hero-content", { duration:2.5, ease:"back.out(1.7)", y: -500 });
+
+gsap.from(".menuItem", {duration:1, alpha:0, stagger:0.25, y:"-=25", delay:1})
