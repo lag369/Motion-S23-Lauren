@@ -31,5 +31,17 @@
             line-height: rem-calc{};
             text-align: justify;
         }
+        #button{
+            align-items: center;
+            text-align: center;
+            border: none;
+            background-color:  #A97DA2;
+            color: #fff;
+            padding: 15px 32px;
+            border-radius: 12px;
+            margin-left: 15%;
+            margin-right: 15%;
+            
+        }
     }
 }
